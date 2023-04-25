@@ -18,7 +18,7 @@ namespace MvcCoreDeployment.Controllers
             ViewBag.SALUDO = "Bien ve ni dos";
             Random rdm = new Random();
             List<int> numeros = new List<int>();
-            for (int i = 0; i <= 10; i++)
+            for (int i = 0; i <= 5; i++)
             {
                 int num = rdm.Next(1, 100);
                 numeros.Add(num);
